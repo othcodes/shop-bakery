@@ -1,3 +1,4 @@
+![](client/public/images/template1.jpg)
 Setup and run application:
 
 I installed (concurrently) in mode dev in order the run both server and client simultaneously.

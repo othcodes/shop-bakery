@@ -1,0 +1,73 @@
+/*============================================================
+                      Define IMPORTS
+==============================================================*/
+@import "../abstracts/variables";
+/*============================================================*/
+.button {
+  border: none;
+  font-size: 14px;
+  color: $color-white;
+  margin-left: 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  
+  &:focus,
+  &:active,
+  &:focus {
+    outline: 0;
+    border: none;
+    box-shadow: none;
+  }
+  
+  &--green {
+    background-color: $color-green;
+  }
+
+  &--purple {
+    background-color: $color-purple;
+  }
+}
+
+.buttonQuantity {
+  width: 40px;
+  height: 40px;
+  background-color: $color-gray;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+
+  &:not(:last-child) {
+    margin-right: 4px;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.buttonOrder {
+  background: linear-gradient(90deg, #3f9af3 0%, #1a6dc3 100%);
+  width: 100%;
+  font-weight: 700;
+  margin: 5px 0;
+  padding: 6px 25px;
+  text-align: center;
+  transition: 0.5s;
+  color: $color-white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+
+  &:hover {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &--cancel {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%)
+  }
+}
+
+

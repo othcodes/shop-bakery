@@ -1,0 +1,32 @@
+/*============================================================
+                      Define IMPORTS
+==============================================================*/
+@import "../../../assets/sass/abstracts/variables";
+/*============================================================*/
+
+.bakeryItem button:disabled {
+  background-color: #f3f3f3;
+}
+
+.stockIsDown {
+  background-color: $color-white;
+  opacity: 0.6;
+
+  & button:disabled {
+    opacity: 0.5;
+    cursor: default;
+    background-color: #aaa;
+    color: black;
+  }
+}
+
+.quantityValue {
+  width: 30px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+
+  &:focus {
+    outline: none !important;
+  }
+}

@@ -1,0 +1,17 @@
+.navigation {
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+
+    & a {
+      &:focus,
+      &:visited,
+      &:active {
+        outline: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+  }

@@ -1,0 +1,35 @@
+/*============================================================
+        Define CSS for the layout (mockup) Application 
+==============================================================*/
+
+/*============================================================
+        Define IMPORTS (variables)
+==============================================================*/
+@import "../abstracts/variables";
+/*============================================================*/
+
+.bakeryApp ul::-webkit-scrollbar {
+  width: 0px;
+}
+
+.bakery {
+  background-color: $color-white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.bakeryApp ul {
+  height: 797px;
+  overflow-y: scroll;
+}
+
+.bakeryApp ul li {
+  overflow: auto;
+  margin: 0 20px;
+  list-style-type: none;
+}
+
+.bakeryApp ul li:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
